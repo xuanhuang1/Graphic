@@ -1,0 +1,22 @@
+
+a program that simulates a 2D canvas and draws various 2D shapes. 
+
+The program draws in the following mode:
+
+    F1: line mode
+    F2: triangle mode
+    F3: rectangle mode
+    F4: circle mode
+
+    f: toggles fill mode
+    r: toggles drawing color red/black
+    g: toggles drawing color green/black
+    b: toggles drawing color blue/black
+    c: clears screen
+    q/Q/escape: quits program
+
+Drag and release to get line
+click and release 3 times to get a triangle
+Drag and release to set two diagonal vertices of a rectangle
+Drag and release to set the center and radius of a circle
+
