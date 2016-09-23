@@ -1,0 +1,15 @@
+Basic features required, and:
+
+Keyboard only for user control
+	arrow key for direction
+	space key to shoot
+	down key to pause
+
+Improve the look of objects
+Implement rotating gun
+		press A for left
+		      D for right
+		      W for forward
+Animation for Win and Lose scene
+Animation for being hit
+Change ship color to indicate the damage 
