@@ -1,1 +1,32 @@
+
+The boids comes in a array of boids, with the maximumOfBoids+1 th index is the goal.
+The total number of current boids is tracked for looping through the array.
+draw the bodies first and then its shadow projected to xy plane with a z of 0.01
+update the main vector then by adding:
+	1. the vector towards goal
+	2. the vectors of three rules applied
+all with separate weighs. 
+
+goal appears in a white boid, normal noids appear in red and yellow
+
+key input
+Toggling ‘p’ key to pause and resume 
+		print goal’s and boids’  positions and rotating angles
+	  ‘d’ key to single step when paused, 
+		and steps continuously when held repeatedly
+
+	‘+/-’ to increment or decrease number of boids on screen
+	‘q/esc’ for exit
+	‘left/right/up/down’ for goal, but no z axis turning, just position change
+	‘v/s’ speed up and slow down
+	‘w’ for default view
+	’t’ for trailing view
+	‘r’ for side view
+
+Extra Credit:
+	shadow is a vertical projection of boids on xy plane
+
+
 convert to shader
+
+implement tranformation and projection matrices
