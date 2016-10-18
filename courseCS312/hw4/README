@@ -25,8 +25,3 @@ Toggling ‘p’ key to pause and resume
 
 Extra Credit:
 	shadow is a vertical projection of boids on xy plane
-
-
-convert to shader
-
-implement tranformation and projection matrices
